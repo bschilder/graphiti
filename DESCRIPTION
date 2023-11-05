@@ -1,21 +1,21 @@
-Package: templateR
+Package: graphiti
 Type: Package
-Title: packageTitle
+Title: Extract Palettes From Graffiti.
 Version: 0.99.0
-Authors@R: c( 
-     person(given = "yourGivenName",
-           family = "yourFamilyName",
-           role = c("cre"),
-           email = "yourEmail@email.com",
-           comment = c(ORCID = "yourOrcidId"))
-    )
-Description: packageDescription.
-URL: https://github.com/neurogenomics/templateR
-BugReports: https://github.com/neurogenomics/templateR/issues
+Authors@R: c(person(given = "Brian",
+                    family = "Schilder",
+                    role = c("cre"),
+                    email = "brian_schilder@alumni.brown.edu",
+                    comment = c(ORCID = "0000-0001-5949-2191")) )
+Description: Extract colour palettes from graffiti artworks.
+URL: https://github.com/bschilder/graphiti
+BugReports: https://github.com/bschilder/graphiti/issues
 Encoding: UTF-8
 Depends: R (>= 4.2)
 biocViews:
 Imports:
+  imgpalr,
+  data.table
 Suggests:
     rworkflows,
     methods,

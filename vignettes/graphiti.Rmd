@@ -22,10 +22,7 @@ library(`r pkg`)
 ```
 
 # Examples
-
-```{r}
-
-```
+ 
 
 
 # Session Info 
